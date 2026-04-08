@@ -8,10 +8,9 @@ import androidx.compose.ui.unit.sp
 import moe.tlaster.precompose.navigation.Navigator
 
 @Composable
-fun Detail(navigator: Navigator) {
-
+fun Memories(navigator: Navigator) {
     Column {
-        Text(text = "Detalhe", fontSize = 20.sp)
+        Text(text = "Memórias", fontSize = 20.sp)
         Button(onClick = { navigator.goBack() }) { Text(text = "Voltar") }
     }
 }

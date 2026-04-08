@@ -1,5 +1,7 @@
 package br.com.cursokmp.screens
 
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Menu
@@ -19,6 +21,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.text.style.TextOverflow
 import br.com.cursokmp.navigation.Drawer
+import br.com.cursokmp.navigation.TabBarNavigation
 import kotlinx.coroutines.launch
 import moe.tlaster.precompose.navigation.Navigator
 
@@ -72,7 +75,9 @@ fun Home(navigator: Navigator, drawerState: DrawerState) {
                     )
                 },
             ) { innerPadding ->
-                //TODO adicionar conteudo da tela
+                Column(modifier = Modifier.padding(innerPadding)) {
+                    TabBarNavigation(navigator)
+                }
             }
         }
     )
