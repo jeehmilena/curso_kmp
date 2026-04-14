@@ -1,17 +1,14 @@
 package br.com.cursokmp.screens
 
 import androidx.compose.foundation.layout.Column
-import androidx.compose.material3.Button
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.unit.sp
+import br.com.cursokmp.navigation.TabRowNavigation
 import moe.tlaster.precompose.navigation.Navigator
 
 @Composable
 fun Detail(navigator: Navigator) {
 
     Column {
-        Text(text = "Detalhe", fontSize = 20.sp)
-        Button(onClick = { navigator.goBack() }) { Text(text = "Voltar") }
+        TabRowNavigation(navigator)
     }
 }
