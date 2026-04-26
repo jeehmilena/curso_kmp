@@ -1,16 +1,33 @@
 package br.com.cursokmp.screens
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
-import androidx.compose.material3.Button
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.ListItem
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.unit.sp
+import cursokmp.composeapp.generated.resources.Res
+import cursokmp.composeapp.generated.resources.snoopy1
 import moe.tlaster.precompose.navigation.Navigator
+import org.jetbrains.compose.resources.painterResource
 
 @Composable
 fun Memories(navigator: Navigator) {
     Column {
-        Text(text = "Memórias", fontSize = 20.sp)
-        Button(onClick = { navigator.goBack() }) { Text(text = "Voltar") }
+        Text(text = "Snoopy e sua turma se divertindo!")
+        HorizontalDivider()
+
+        ListItem(
+            headlineContent = {/* TODO */ },
+            supportingContent = { /* TODO */ },
+            leadingContent = {
+                Image(
+                    painter = painterResource(Res.drawable.snoopy1),
+                    contentDescription = null
+                )
+            },
+            trailingContent = {/* TODO */ }
+        )
     }
+
 }
