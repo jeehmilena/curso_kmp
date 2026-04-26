@@ -7,7 +7,6 @@ import moe.tlaster.precompose.navigation.Navigator
 
 @Composable
 fun Detail(navigator: Navigator) {
-
     Column {
         TabRowNavigation(navigator)
     }
