@@ -53,6 +53,9 @@ kotlin {
             implementation(libs.precompose)
             implementation(libs.ktor.serialization.kotlinx.json)
             implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.navigation.compose)
+            implementation(libs.androidx.lifecycle.viewmodelCompose)
+
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

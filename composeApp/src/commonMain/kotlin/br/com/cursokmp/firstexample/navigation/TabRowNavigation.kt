@@ -1,4 +1,4 @@
-package br.com.cursokmp.navigation
+package br.com.cursokmp.firstexample.navigation
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material.icons.Icons
@@ -17,7 +17,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.sp
-import br.com.cursokmp.data.datasource.remote.ApiService
+import br.com.cursokmp.firstexample.data.datasource.remote.ApiService
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.IO

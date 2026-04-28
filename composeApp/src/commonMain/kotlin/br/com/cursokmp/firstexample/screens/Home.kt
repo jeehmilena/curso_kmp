@@ -1,4 +1,4 @@
-package br.com.cursokmp.screens
+package br.com.cursokmp.firstexample.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -20,8 +20,8 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.text.style.TextOverflow
-import br.com.cursokmp.navigation.Drawer
-import br.com.cursokmp.navigation.TabBarNavigation
+import br.com.cursokmp.firstexample.navigation.Drawer
+import br.com.cursokmp.firstexample.navigation.TabBarNavigation
 import kotlinx.coroutines.launch
 import moe.tlaster.precompose.navigation.Navigator
 

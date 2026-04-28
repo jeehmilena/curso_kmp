@@ -2,8 +2,7 @@ package br.com.cursokmp
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
-import br.com.cursokmp.navigation.Navigation
-import moe.tlaster.precompose.PreComposeApp
+import br.com.cursokmp.secondexample.navigation.NavigationController
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
@@ -11,8 +10,6 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 fun App() {
 
     MaterialTheme {
-        PreComposeApp {
-            Navigation()
-        }
+        NavigationController()
     }
 }

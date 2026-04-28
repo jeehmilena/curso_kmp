@@ -1,6 +1,6 @@
-package br.com.cursokmp.data.datasource.remote
+package br.com.cursokmp.firstexample.data.datasource.remote
 
-import br.com.cursokmp.data.dto.CepResponseDto
+import br.com.cursokmp.firstexample.data.dto.CepResponseDto
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation

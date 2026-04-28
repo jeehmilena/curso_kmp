@@ -1,4 +1,4 @@
-package br.com.cursokmp.data.dto
+package br.com.cursokmp.firstexample.data.dto
 
 import kotlinx.serialization.Serializable
 

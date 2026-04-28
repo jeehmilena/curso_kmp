@@ -1,8 +1,8 @@
-package br.com.cursokmp.screens
+package br.com.cursokmp.firstexample.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
-import br.com.cursokmp.navigation.TabRowNavigation
+import br.com.cursokmp.firstexample.navigation.TabRowNavigation
 import moe.tlaster.precompose.navigation.Navigator
 
 @Composable

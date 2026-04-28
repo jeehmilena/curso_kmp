@@ -1,6 +1,5 @@
-package br.com.cursokmp.navigation
+package br.com.cursokmp.firstexample.navigation
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.icons.Icons
@@ -18,10 +17,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import br.com.cursokmp.screens.Detail
-import br.com.cursokmp.screens.Memories
-import br.com.cursokmp.screens.Profile
+import br.com.cursokmp.firstexample.screens.Detail
+import br.com.cursokmp.firstexample.screens.Memories
+import br.com.cursokmp.firstexample.screens.Profile
 import moe.tlaster.precompose.navigation.Navigator
 
 @Composable
