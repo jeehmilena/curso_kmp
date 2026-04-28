@@ -55,6 +55,7 @@ kotlin {
             implementation(libs.ktor.client.content.negotiation)
             implementation(libs.navigation.compose)
             implementation(libs.androidx.lifecycle.viewmodelCompose)
+            implementation(libs.kamel.image.default)
 
         }
         commonTest.dependencies {
